@@ -30,4 +30,9 @@ html {
 
 .hero h1 {
     font-weight: bold;
+    color: #2f281e;
+}
+
+.hero p {
+    color: #2f281e;
 }
