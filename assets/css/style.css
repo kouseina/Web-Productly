@@ -1,38 +1,38 @@
 html {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-primary {
-    background: #ff9900;
-    border: 0;
-    font-size: 16px;
-    padding: 15px 40px;
-    font-weight: bold;
+  background: #ff9900;
+  border: 0;
+  font-size: 16px;
+  padding: 11px 40px;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-    background: #d68408;
+  background: #d68408;
 }
 
 .btn-secondary {
-    background: none;
-    border: solid 1px #bcd0e5;
-    font-size: 16px;
-    padding: 15px 40px;
-    font-weight: bold;
-    color: #173a56;
+  background: none;
+  border: solid 1px #bcd0e5;
+  font-size: 16px;
+  padding: 11px 40px;
+  font-weight: bold;
+  color: #173a56;
 }
 
 .btn-secondary:hover {
-    background: #bcd0e5;
-    color: #173a56;
+  background: #bcd0e5;
+  color: #173a56;
 }
 
 .hero h1 {
-    font-weight: bold;
-    color: #2f281e;
+  font-weight: bold;
+  color: #2f281e;
 }
 
 .hero p {
-    color: #2f281e;
+  color: #2f281e;
 }
