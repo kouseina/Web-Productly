@@ -93,3 +93,38 @@ p {
   background-repeat: no-repeat;
   padding: 250px 0;
 }
+
+.marketing h5 {
+  color: var(--main-black);
+  font-size: 24px;
+}
+
+.marketing .box:hover h5 {
+  color: var(--main-orange);
+  text-decoration: var(--main-orange);
+}
+
+.glider-contain {
+  width: 80% !important;
+}
+
+.glider-slide {
+  border: none !important;
+  height: 100% !important;
+}
+
+.glider-contain .glider-slide img {
+  height: 185px !important;
+}
+
+.glider-dot {
+  background-color: #EFEFEF !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 16px !important;
+  border: none !important;
+}
+
+.glider-dot.active {
+  background-color: var(--main-orange) !important;
+}
