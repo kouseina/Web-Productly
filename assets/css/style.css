@@ -2,8 +2,34 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --main-black : #2f281e;
+  --second-black : #544837;
+  --main-orange : #FF9900;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.font-weight-semibold {
+  font-weight: 600 !important;
+}
+
+.text-main-black {
+  color: var(--main-black) !important;
+}
+
+.text-main-orange {
+  color: var(--main-orange) !important;
+}
+
 .btn-primary {
-  background: #ff9900;
+  background: var(--main-orange);
   border: 0;
   font-size: 16px;
   padding: 11px 40px;
@@ -28,11 +54,17 @@ html {
   color: #173a56;
 }
 
-.hero h1 {
-  font-weight: bold;
-  color: #2f281e;
+h1 {
+  color: var(--main-black);
 }
 
-.hero p {
-  color: #2f281e;
+h3 {
+  color: var(--main-black);
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--second-black);
+  font-weight: 500;
 }
