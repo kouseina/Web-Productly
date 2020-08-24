@@ -86,3 +86,10 @@ p {
   background-repeat: no-repeat;
   padding-bottom: 70px;
 }
+
+.testimoni {
+  background: url('../images/bg-second.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 250px 0;
+}
