@@ -3,9 +3,9 @@ html {
 }
 
 :root {
-  --main-black : #2f281e;
-  --second-black : #544837;
-  --main-orange : #FF9900;
+  --main-black: #2f281e;
+  --second-black: #544837;
+  --main-orange: #FF9900;
 }
 
 .font-16 {
@@ -61,10 +61,23 @@ h1 {
 h3 {
   color: var(--main-black);
   font-size: 36px;
+  font-weight: bold;
+}
+
+h6 {
+  color: var(--main-black);
+  font-size: 22px;
 }
 
 p {
   font-size: 16px;
   color: var(--second-black);
   font-weight: 500;
+}
+
+.tools {
+  background: url('../images/bg-first.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
 }
